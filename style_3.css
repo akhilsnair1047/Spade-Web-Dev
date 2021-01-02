@@ -1,0 +1,45 @@
+body{
+    background-image: url(img/24_image.jpg) ;
+}
+
+form{
+    border : 3px solid #f1f1f1;
+    background-color: white;
+}
+
+.container{
+    padding: 15px;
+}
+input[type=text], input[type=password], input[type=mail]
+{
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0px;
+ display: inline-block;
+ border: 1px solid #ccc;
+}
+
+button{
+    background-color: rgb(5, 170, 5);
+    color:white;
+    padding: 14px 20px;
+    width: 100% ;
+    cursor: pointer;
+    border: none;
+    margin: 10px 0px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.cancelbtn{
+    background-color: red;
+    width: auto;
+
+}
+
+.spn{
+  float: right;
+  padding: 20px 10px;
+}

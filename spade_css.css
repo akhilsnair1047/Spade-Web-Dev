@@ -1,0 +1,24 @@
+h1{
+    color:rgb(226, 32, 139) ;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.biig{
+    width: 200px;
+
+    /* padding-left: 100px ;
+    padding-top: 100px ;
+    padding-bottom: 100px ;
+    padding-right: 100px ; */
+
+    padding: 10px 10px 10px;
+
+
+}
+
+#pi{
+    
+}

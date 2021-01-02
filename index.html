@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spade web dev </title>
+</head>
+<body>
+    
+
+<h1>
+    Hello
+</h1>
+
+
+<!-- <b> true </b>  -->
+
+
+<br>
+
+<script>
+
+     var x = 1 ;
+    //  var y = "10" ;
+
+     if( x == 10){
+         document.write(" true  ")
+     }
+
+     else if( x >=11)
+      {
+              document.write(" x>=11")
+     }
+      else {
+          document.write("false")
+      }
+</script>
+
+
+<p id= "sw"></p>
+
+<h1 id= "arr"></h1>
+
+<br>
+
+<p id= "pr">
+
+</p>
+
+
+<p id="wh"></p>
+
+
+
+<script>
+  
+   var t;
+   var num = 6;
+
+   switch (num){
+       case 1 : t = " 1 output";
+                break;
+
+       case 2 : t =" 2 output";
+                 break;     
+                 
+        case 3 : t =" 3 output";
+                   break;    
+        case 4 : t =" 4 output";
+                    break;    
+        case 5 : t =" 5 output";
+                    break;  
+        default:   t= " no output"   ;                     
+   }
+
+   document.getElementById("sw").innerHTML=t;
+
+
+
+
+   var course= ["CSE", " MTH", "ECE", "MEC"];
+   document.getElementById("arr").innerHTML=course;
+
+
+   var sub= ["CSE", " MTH", "ECE", "MEC"];
+
+     var i;
+     var tx = "";
+
+     for (i=0 ; i<  sub.length ; ++i){
+         tx += sub[i] +"<br>" ; 
+         document.write("<b>hello <br> </b>")
+
+     }
+
+     document.getElementById("pr").innerHTML=tx;
+
+
+
+    var tx_1="";
+     i=1;
+     while(i <= 10 ){
+         tx_1 +=" The number is : "+i + "<br>";
+
+         ++i;
+
+     }
+     document.getElementById("wh").innerHTML = tx_1;
+
+
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html>

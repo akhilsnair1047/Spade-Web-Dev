@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+ 
+   
+</head>
+<body>
+    
+<h1>Hi</h1>
+
+<p id="xyz"></p>
+
+
+
+<button type="button" onclick=fun()> Click</button>
+
+<p id="abc">
+    Add x + y = z
+</p>
+<button type="button" onclick="fun_1()">add</button>
+
+
+<br>
+
+<script>
+   document.write("Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod commodi doloremque explicabo odio sequi sit blanditiis, vel, omnis quo ab vitae sunt earum aliquid quaerat ipsum at dicta! Quam, voluptates.")
+ </script>
+
+
+
+<br><br>
+
+<button type="button"> alert</button>
+
+<br><br>
+<button type="button" onclick="fun_3()">Welcome</button>
+
+<p id="name">
+
+</p>
+
+
+<p id="demo"></p>
+
+
+
+
+<p id="add">
+
+</p>
+
+<script>
+ onclick="fun_2()"
+   
+
+function fun_4( a, b ){
+
+     return a * b;
+
+}
+
+document.getElementById("add").innerHTML= fun_4( 30, 20);
+
+</script>
+
+
+
+<script>
+
+    document.getElementById("xyz").innerHTML="lorem how are you ";
+
+
+
+    function fun() {
+     document.getElementById("demo").innerHTML="Hello khvclds.bc.";
+    } 
+    
+    
+    function fun_1(){
+     var x, y, z; 
+       x=10;   
+       y=40;
+       z = x * y;
+       var name="Akhil nair" ;
+       document.getElementById("abc").innerHTML="The value of z =" + z + "." + name ;
+    } 
+
+
+    function fun_2(){
+        alert("Hello world! how r u?");
+    }
+
+    function fun_3(){
+        var name= prompt("Enter you Name : ","Akhil");
+
+        document.getElementById("name").innerHTML="Welcome " + name + " to spade." ;
+        
+
+    }
+
+    
+
+ </script>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+h2{
+    color: blue;
+}
+
+
+.sign{
+    width: 200px;
+    background-color: rgb(13, 137, 245);
+    color: black;
+    padding: 50px 0px;
+    /* margin: 0px  100px ; */
+    margin-left: 500px;
+}
+
+input[type=password]{
+    background-color: yellow;
+}
